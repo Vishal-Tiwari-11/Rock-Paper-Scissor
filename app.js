@@ -55,7 +55,7 @@ if(userChioce===compChoice){
     } else if(userChioce==="paper"){
         userWin = compChoice==="scissor"? false:true;
     }else{
-        userChioce = compChoice==="rock"?false:true
+        userWin = compChoice==="rock"?false:true
     }
     showWinner(userWin, userChioce, compChoice);
 }
